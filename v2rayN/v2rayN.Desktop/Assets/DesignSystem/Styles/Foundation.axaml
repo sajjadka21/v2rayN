@@ -1,0 +1,137 @@
+﻿<Styles
+    xmlns="https://github.com/avaloniaui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!-- Surfaces -->
+
+    <Style Selector="Border.ModernSurface">
+        <Setter Property="Background"
+                Value="{DynamicResource SurfacePrimaryBrush}" />
+        <Setter Property="BorderBrush"
+                Value="{DynamicResource BorderDefaultBrush}" />
+        <Setter Property="BorderThickness"
+                Value="1" />
+        <Setter Property="CornerRadius"
+                Value="{StaticResource ModernRadiusLarge}" />
+    </Style>
+
+    <Style Selector="Border.ModernSurfaceSecondary">
+        <Setter Property="Background"
+                Value="{DynamicResource SurfaceSecondaryBrush}" />
+        <Setter Property="BorderBrush"
+                Value="{DynamicResource BorderDefaultBrush}" />
+        <Setter Property="BorderThickness"
+                Value="1" />
+        <Setter Property="CornerRadius"
+                Value="{StaticResource ModernRadiusMedium}" />
+    </Style>
+
+    <!-- Typography -->
+
+    <Style Selector="TextBlock.ModernPageTitle">
+        <Setter Property="Foreground"
+                Value="{DynamicResource TextPrimaryBrush}" />
+        <Setter Property="FontSize"
+                Value="{StaticResource ModernFontPageTitle}" />
+        <Setter Property="FontWeight"
+                Value="SemiBold" />
+    </Style>
+
+    <Style Selector="TextBlock.ModernSectionTitle">
+        <Setter Property="Foreground"
+                Value="{DynamicResource TextPrimaryBrush}" />
+        <Setter Property="FontSize"
+                Value="{StaticResource ModernFontSectionTitle}" />
+        <Setter Property="FontWeight"
+                Value="SemiBold" />
+    </Style>
+
+    <Style Selector="TextBlock.ModernBody">
+        <Setter Property="Foreground"
+                Value="{DynamicResource TextSecondaryBrush}" />
+        <Setter Property="FontSize"
+                Value="{StaticResource ModernFontBody}" />
+    </Style>
+
+    <Style Selector="TextBlock.ModernMuted">
+        <Setter Property="Foreground"
+                Value="{DynamicResource TextMutedBrush}" />
+        <Setter Property="FontSize"
+                Value="{StaticResource ModernFontSmall}" />
+    </Style>
+
+    <!-- Primary Button -->
+
+    <Style Selector="Button.ModernPrimary">
+        <Setter Property="Height"
+                Value="{StaticResource ModernControlHeight}" />
+        <Setter Property="Padding"
+                Value="16,0" />
+        <Setter Property="Background"
+                Value="{DynamicResource AccentPrimaryBrush}" />
+        <Setter Property="Foreground"
+                Value="{DynamicResource TextOnAccentBrush}" />
+        <Setter Property="BorderThickness"
+                Value="0" />
+        <Setter Property="CornerRadius"
+                Value="{StaticResource ModernRadiusMedium}" />
+        <Setter Property="FontWeight"
+                Value="SemiBold" />
+    </Style>
+
+    <Style Selector="Button.ModernPrimary:pointerover">
+        <Setter Property="Background"
+                Value="{DynamicResource AccentHoverBrush}" />
+    </Style>
+
+    <Style Selector="Button.ModernPrimary:pressed">
+        <Setter Property="Background"
+                Value="{DynamicResource AccentPressedBrush}" />
+    </Style>
+
+    <!-- Secondary Button -->
+
+    <Style Selector="Button.ModernSecondary">
+        <Setter Property="Height"
+                Value="{StaticResource ModernControlHeight}" />
+        <Setter Property="Padding"
+                Value="16,0" />
+        <Setter Property="Background"
+                Value="{DynamicResource SurfaceSecondaryBrush}" />
+        <Setter Property="Foreground"
+                Value="{DynamicResource TextPrimaryBrush}" />
+        <Setter Property="BorderBrush"
+                Value="{DynamicResource BorderDefaultBrush}" />
+        <Setter Property="BorderThickness"
+                Value="1" />
+        <Setter Property="CornerRadius"
+                Value="{StaticResource ModernRadiusMedium}" />
+    </Style>
+
+    <Style Selector="Button.ModernSecondary:pointerover">
+        <Setter Property="Background"
+                Value="{DynamicResource SurfaceHoverBrush}" />
+        <Setter Property="BorderBrush"
+                Value="{DynamicResource BorderStrongBrush}" />
+    </Style>
+
+    <!-- Danger Button -->
+
+    <Style Selector="Button.ModernDanger">
+        <Setter Property="Height"
+                Value="{StaticResource ModernControlHeight}" />
+        <Setter Property="Padding"
+                Value="16,0" />
+        <Setter Property="Background"
+                Value="{DynamicResource StatusDangerSoftBrush}" />
+        <Setter Property="Foreground"
+                Value="{DynamicResource StatusDangerBrush}" />
+        <Setter Property="BorderBrush"
+                Value="{DynamicResource StatusDangerBrush}" />
+        <Setter Property="BorderThickness"
+                Value="1" />
+        <Setter Property="CornerRadius"
+                Value="{StaticResource ModernRadiusMedium}" />
+    </Style>
+
+</Styles>

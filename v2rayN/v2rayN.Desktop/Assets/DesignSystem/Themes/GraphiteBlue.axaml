@@ -1,0 +1,56 @@
+﻿<ResourceDictionary
+    xmlns="https://github.com/avaloniaui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!-- Application -->
+    <SolidColorBrush x:Key="AppBackgroundBrush">#0B0D12</SolidColorBrush>
+    <SolidColorBrush x:Key="SidebarBackgroundBrush">#0F131B</SolidColorBrush>
+
+    <!-- Surfaces -->
+    <SolidColorBrush x:Key="SurfacePrimaryBrush">#131821</SolidColorBrush>
+    <SolidColorBrush x:Key="SurfaceSecondaryBrush">#171D28</SolidColorBrush>
+    <SolidColorBrush x:Key="SurfaceTertiaryBrush">#1C2430</SolidColorBrush>
+    <SolidColorBrush x:Key="SurfaceHoverBrush">#202A39</SolidColorBrush>
+    <SolidColorBrush x:Key="SurfacePressedBrush">#263246</SolidColorBrush>
+    <SolidColorBrush x:Key="SurfaceSelectedBrush">#1C2B43</SolidColorBrush>
+
+    <!-- Accent -->
+    <SolidColorBrush x:Key="AccentPrimaryBrush">#4C8DFF</SolidColorBrush>
+    <SolidColorBrush x:Key="AccentHoverBrush">#69A0FF</SolidColorBrush>
+    <SolidColorBrush x:Key="AccentPressedBrush">#3476E5</SolidColorBrush>
+    <SolidColorBrush x:Key="AccentSoftBrush">#1F3154</SolidColorBrush>
+
+    <!-- Text -->
+    <SolidColorBrush x:Key="TextPrimaryBrush">#F3F6FB</SolidColorBrush>
+    <SolidColorBrush x:Key="TextSecondaryBrush">#AEB8C7</SolidColorBrush>
+    <SolidColorBrush x:Key="TextMutedBrush">#748094</SolidColorBrush>
+    <SolidColorBrush x:Key="TextDisabledBrush">#515B6B</SolidColorBrush>
+    <SolidColorBrush x:Key="TextOnAccentBrush">#FFFFFF</SolidColorBrush>
+
+    <!-- Borders -->
+    <SolidColorBrush x:Key="BorderDefaultBrush">#273143</SolidColorBrush>
+    <SolidColorBrush x:Key="BorderStrongBrush">#354258</SolidColorBrush>
+    <SolidColorBrush x:Key="DividerBrush">#1E2633</SolidColorBrush>
+
+    <!-- Semantic -->
+    <SolidColorBrush x:Key="StatusSuccessBrush">#3DDC97</SolidColorBrush>
+    <SolidColorBrush x:Key="StatusSuccessSoftBrush">#173C32</SolidColorBrush>
+
+    <SolidColorBrush x:Key="StatusWarningBrush">#F5B942</SolidColorBrush>
+    <SolidColorBrush x:Key="StatusWarningSoftBrush">#45381B</SolidColorBrush>
+
+    <SolidColorBrush x:Key="StatusDangerBrush">#FF5D73</SolidColorBrush>
+    <SolidColorBrush x:Key="StatusDangerSoftBrush">#48202A</SolidColorBrush>
+
+    <SolidColorBrush x:Key="StatusInfoBrush">#5FA8FF</SolidColorBrush>
+    <SolidColorBrush x:Key="StatusInfoSoftBrush">#1D3657</SolidColorBrush>
+
+    <!-- Routing -->
+    <SolidColorBrush x:Key="RoutingProxyBrush">#4C8DFF</SolidColorBrush>
+    <SolidColorBrush x:Key="RoutingDirectBrush">#3DDC97</SolidColorBrush>
+    <SolidColorBrush x:Key="RoutingBlockBrush">#FF5D73</SolidColorBrush>
+
+    <!-- Overlay -->
+    <SolidColorBrush x:Key="OverlayBrush">#B8000000</SolidColorBrush>
+
+</ResourceDictionary>

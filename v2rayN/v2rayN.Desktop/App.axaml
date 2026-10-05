@@ -9,17 +9,28 @@
     Name="v2rayN"
     x:DataType="vms:StatusBarViewModel"
     RequestedThemeVariant="Default">
+
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
                 <ResourceInclude Source="Assets/GlobalResources.axaml" />
+
+                <!-- v2rayN Modern Design System -->
+                <ResourceInclude Source="Assets/DesignSystem/Tokens.axaml" />
+                <ResourceInclude Source="Assets/DesignSystem/Themes/GraphiteBlue.axaml" />
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>
+
     <Application.Styles>
         <semi:SemiTheme />
         <semi:AvaloniaEditSemiTheme />
+
         <StyleInclude Source="Assets/GlobalStyles.axaml" />
+
+        <!-- v2rayN Modern Design System -->
+        <StyleInclude Source="Assets/DesignSystem/Styles/Foundation.axaml" />
+
         <StyleInclude Source="avares://Semi.Avalonia.DataGrid/Index.axaml" />
         <dialogHost:DialogHostStyles />
 
@@ -82,4 +93,5 @@
             </TrayIcon>
         </TrayIcons>
     </TrayIcon.Icons>
+
 </Application>

@@ -1,0 +1,65 @@
+﻿<ResourceDictionary
+    xmlns="https://github.com/avaloniaui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!-- v2rayN Modern Design System -->
+
+    <!-- Spacing -->
+    <Thickness x:Key="ModernSpace2">2</Thickness>
+    <Thickness x:Key="ModernSpace4">4</Thickness>
+    <Thickness x:Key="ModernSpace6">6</Thickness>
+    <Thickness x:Key="ModernSpace8">8</Thickness>
+    <Thickness x:Key="ModernSpace12">12</Thickness>
+    <Thickness x:Key="ModernSpace16">16</Thickness>
+    <Thickness x:Key="ModernSpace20">20</Thickness>
+    <Thickness x:Key="ModernSpace24">24</Thickness>
+    <Thickness x:Key="ModernSpace32">32</Thickness>
+
+    <!-- Horizontal spacing -->
+    <Thickness x:Key="ModernHorizontal8">8,0</Thickness>
+    <Thickness x:Key="ModernHorizontal12">12,0</Thickness>
+    <Thickness x:Key="ModernHorizontal16">16,0</Thickness>
+    <Thickness x:Key="ModernHorizontal24">24,0</Thickness>
+
+    <!-- Vertical spacing -->
+    <Thickness x:Key="ModernVertical4">0,4</Thickness>
+    <Thickness x:Key="ModernVertical8">0,8</Thickness>
+    <Thickness x:Key="ModernVertical12">0,12</Thickness>
+    <Thickness x:Key="ModernVertical16">0,16</Thickness>
+
+    <!-- Corner Radius -->
+    <CornerRadius x:Key="ModernRadiusSmall">6</CornerRadius>
+    <CornerRadius x:Key="ModernRadiusMedium">10</CornerRadius>
+    <CornerRadius x:Key="ModernRadiusLarge">14</CornerRadius>
+    <CornerRadius x:Key="ModernRadiusXLarge">18</CornerRadius>
+    <CornerRadius x:Key="ModernRadiusPill">999</CornerRadius>
+
+    <!-- Control Heights -->
+    <x:Double x:Key="ModernControlHeightSmall">30</x:Double>
+    <x:Double x:Key="ModernControlHeight">36</x:Double>
+    <x:Double x:Key="ModernControlHeightLarge">42</x:Double>
+
+    <!-- Application Layout -->
+    <x:Double x:Key="ModernSidebarWidth">224</x:Double>
+    <x:Double x:Key="ModernSidebarCollapsedWidth">72</x:Double>
+    <x:Double x:Key="ModernHeaderHeight">56</x:Double>
+    <x:Double x:Key="ModernStatusBarHeight">32</x:Double>
+    <x:Double x:Key="ModernContentMaxWidth">1440</x:Double>
+
+    <!-- Icons -->
+    <x:Double x:Key="ModernIconSmall">14</x:Double>
+    <x:Double x:Key="ModernIconMedium">18</x:Double>
+    <x:Double x:Key="ModernIconLarge">22</x:Double>
+    <x:Double x:Key="ModernIconXLarge">28</x:Double>
+
+    <!-- Typography -->
+    <x:Double x:Key="ModernFontCaption">11</x:Double>
+    <x:Double x:Key="ModernFontSmall">12</x:Double>
+    <x:Double x:Key="ModernFontBody">13</x:Double>
+    <x:Double x:Key="ModernFontBodyLarge">14</x:Double>
+    <x:Double x:Key="ModernFontSectionTitle">16</x:Double>
+    <x:Double x:Key="ModernFontTitle">18</x:Double>
+    <x:Double x:Key="ModernFontPageTitle">24</x:Double>
+    <x:Double x:Key="ModernFontHero">32</x:Double>
+
+</ResourceDictionary>
