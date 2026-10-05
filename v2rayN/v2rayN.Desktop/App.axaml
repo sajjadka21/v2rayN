@@ -30,6 +30,9 @@
 
         <!-- v2rayN Modern Design System -->
         <StyleInclude Source="Assets/DesignSystem/Styles/Foundation.axaml" />
+        <StyleInclude Source="Assets/DesignSystem/Styles/Cards.axaml" />
+        <StyleInclude Source="Assets/DesignSystem/Styles/Inputs.axaml" />
+        <StyleInclude Source="Assets/DesignSystem/Styles/Status.axaml" />
 
         <StyleInclude Source="avares://Semi.Avalonia.DataGrid/Index.axaml" />
         <dialogHost:DialogHostStyles />

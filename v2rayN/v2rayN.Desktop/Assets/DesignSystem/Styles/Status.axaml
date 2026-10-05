@@ -1,0 +1,77 @@
+<Styles
+    xmlns="https://github.com/avaloniaui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Style Selector="Border.ModernStatusSuccess">
+        <Setter Property="Background"
+                Value="{DynamicResource StatusSuccessSoftBrush}" />
+        <Setter Property="CornerRadius"
+                Value="{StaticResource ModernRadiusPill}" />
+        <Setter Property="Padding"
+                Value="10,4" />
+    </Style>
+
+    <Style Selector="Border.ModernStatusWarning">
+        <Setter Property="Background"
+                Value="{DynamicResource StatusWarningSoftBrush}" />
+        <Setter Property="CornerRadius"
+                Value="{StaticResource ModernRadiusPill}" />
+        <Setter Property="Padding"
+                Value="10,4" />
+    </Style>
+
+    <Style Selector="Border.ModernStatusDanger">
+        <Setter Property="Background"
+                Value="{DynamicResource StatusDangerSoftBrush}" />
+        <Setter Property="CornerRadius"
+                Value="{StaticResource ModernRadiusPill}" />
+        <Setter Property="Padding"
+                Value="10,4" />
+    </Style>
+
+    <Style Selector="Border.ModernStatusInfo">
+        <Setter Property="Background"
+                Value="{DynamicResource StatusInfoSoftBrush}" />
+        <Setter Property="CornerRadius"
+                Value="{StaticResource ModernRadiusPill}" />
+        <Setter Property="Padding"
+                Value="10,4" />
+    </Style>
+
+    <Style Selector="TextBlock.ModernStatusSuccessText">
+        <Setter Property="Foreground"
+                Value="{DynamicResource StatusSuccessBrush}" />
+        <Setter Property="FontSize"
+                Value="{StaticResource ModernFontSmall}" />
+        <Setter Property="FontWeight"
+                Value="SemiBold" />
+    </Style>
+
+    <Style Selector="TextBlock.ModernStatusWarningText">
+        <Setter Property="Foreground"
+                Value="{DynamicResource StatusWarningBrush}" />
+        <Setter Property="FontSize"
+                Value="{StaticResource ModernFontSmall}" />
+        <Setter Property="FontWeight"
+                Value="SemiBold" />
+    </Style>
+
+    <Style Selector="TextBlock.ModernStatusDangerText">
+        <Setter Property="Foreground"
+                Value="{DynamicResource StatusDangerBrush}" />
+        <Setter Property="FontSize"
+                Value="{StaticResource ModernFontSmall}" />
+        <Setter Property="FontWeight"
+                Value="SemiBold" />
+    </Style>
+
+    <Style Selector="TextBlock.ModernStatusInfoText">
+        <Setter Property="Foreground"
+                Value="{DynamicResource StatusInfoBrush}" />
+        <Setter Property="FontSize"
+                Value="{StaticResource ModernFontSmall}" />
+        <Setter Property="FontWeight"
+                Value="SemiBold" />
+    </Style>
+
+</Styles>

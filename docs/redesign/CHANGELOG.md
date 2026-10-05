@@ -1,12 +1,12 @@
-﻿# Redesign Changelog
+# Redesign Changelog
 
 ## UI Foundation
 
-- [ ] Design tokens
-- [ ] Graphite Blue theme
-- [ ] Midnight Violet theme
-- [ ] Neutral Teal theme
-- [ ] Shared control styles
+- [x] Design tokens
+- [x] Graphite Blue theme
+- [x] Midnight Violet theme
+- [x] Neutral Teal theme
+- [x] Shared control styles
 - [ ] App shell
 - [ ] Home
 - [ ] Servers

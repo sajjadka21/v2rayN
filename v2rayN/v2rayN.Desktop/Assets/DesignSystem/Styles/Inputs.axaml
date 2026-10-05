@@ -1,0 +1,47 @@
+<Styles
+    xmlns="https://github.com/avaloniaui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Style Selector="TextBox.ModernInput">
+        <Setter Property="MinHeight"
+                Value="{StaticResource ModernControlHeight}" />
+        <Setter Property="Background"
+                Value="{DynamicResource SurfaceSecondaryBrush}" />
+        <Setter Property="Foreground"
+                Value="{DynamicResource TextPrimaryBrush}" />
+        <Setter Property="BorderBrush"
+                Value="{DynamicResource BorderDefaultBrush}" />
+        <Setter Property="BorderThickness"
+                Value="1" />
+        <Setter Property="CornerRadius"
+                Value="{StaticResource ModernRadiusMedium}" />
+        <Setter Property="Padding"
+                Value="12,6" />
+    </Style>
+
+    <Style Selector="TextBox.ModernInput:pointerover">
+        <Setter Property="BorderBrush"
+                Value="{DynamicResource BorderStrongBrush}" />
+    </Style>
+
+    <Style Selector="TextBox.ModernInput:focus">
+        <Setter Property="BorderBrush"
+                Value="{DynamicResource AccentPrimaryBrush}" />
+    </Style>
+
+    <Style Selector="ComboBox.ModernInput">
+        <Setter Property="MinHeight"
+                Value="{StaticResource ModernControlHeight}" />
+        <Setter Property="Background"
+                Value="{DynamicResource SurfaceSecondaryBrush}" />
+        <Setter Property="Foreground"
+                Value="{DynamicResource TextPrimaryBrush}" />
+        <Setter Property="BorderBrush"
+                Value="{DynamicResource BorderDefaultBrush}" />
+        <Setter Property="BorderThickness"
+                Value="1" />
+        <Setter Property="CornerRadius"
+                Value="{StaticResource ModernRadiusMedium}" />
+    </Style>
+
+</Styles>
